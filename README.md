@@ -20,3 +20,8 @@ Ubuntu Server Script Collection
     # install text editor
     #----------------------
     curl -s https://raw.githubusercontent.com/zagabond/server-scripts/main/install-vim.sh | bash
+    
+    #----------------------
+    # initialize firewall
+    #----------------------
+    curl -s https://github.com/zagabond/server-scripts/blob/main/init-ipconfig.sh | bash
