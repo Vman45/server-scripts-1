@@ -2,7 +2,7 @@
 Ubuntu Server Script Collection
    
     #--------------------
-    # start
+    # update & upgrade
     #--------------------
     curl -s https://raw.githubusercontent.com/zagabond/server-scripts/main/update-upgrade.sh | bash
     
