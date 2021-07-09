@@ -1,6 +1,11 @@
 # server-scripts
 Ubuntu Server Script Collection
-   
+
+    #----------------------
+    # check os
+    #----------------------
+    curl -s https://raw.githubusercontent.com/zagabond/server-scripts/main/check-os.sh | bash
+    
     #--------------------
     # update & upgrade
     #--------------------
