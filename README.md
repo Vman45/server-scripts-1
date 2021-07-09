@@ -25,3 +25,9 @@ Ubuntu Server Script Collection
     # initialize firewall
     #----------------------
     curl -s https://github.com/zagabond/server-scripts/blob/main/init-ipconfig.sh | bash
+
+    #-------------------------
+    # reset password & reboot
+    #-------------------------
+    https://github.com/zagabond/server-scripts/blob/main/reset-password.sh
+    https://github.com/zagabond/server-scripts/blob/main/reboot-after-setup.sh
