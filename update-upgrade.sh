@@ -15,21 +15,16 @@ NC="\e[0m"
 # start
 #----------------------
 echo
-echo -e "${BG_GREEN} Updating... ${NC}"
+echo -e "${BG_GREEN} Updating & Upgrading... ${NC}"
 
 sudo apt update -y
-
-echo
-echo -e "${BG_GREEN} Upgrading... ${NC}"
-
 sudo apt upgrade -y
 
 echo
-echo -e "${BG_GREEN} Updating... ${NC}"
+echo -e "${BG_GREEN} Checking... ${NC}"
 
 sudo apt update -y
+sudo apt upgrade -y
 
 echo
-echo -e "${BG_GREEN} Upgrading... ${NC}"
-
-sudo apt upgrade -y
+echo -e "${GREEN}All updates installed${NC}"
