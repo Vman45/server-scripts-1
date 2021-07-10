@@ -29,5 +29,5 @@ Ubuntu Server Script Collection
     #-------------------------
     # reset password & reboot
     #-------------------------
-    curl -s https://github.com/zagabond/server-scripts/blob/main/reset-password.sh | bash
-    curl -s https://github.com/zagabond/server-scripts/blob/main/reboot-after-setup.sh | bash
+    curl -s https://raw.githubusercontent.com/zagabond/server-scripts/main/reset-password.sh | bash
+    curl -s https://raw.githubusercontent.com/zagabond/server-scripts/main/reboot-after-setup.sh | bash
