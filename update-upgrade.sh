@@ -27,4 +27,5 @@ sudo apt update -y
 sudo apt upgrade -y
 
 echo
-echo -e "${GREEN}All updates installed${NC}"
+echo -e "${GREEN}All updates installed\n${NC}"
+
