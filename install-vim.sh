@@ -17,7 +17,7 @@ echo
 echo -e "${BG_GREEN} Installing text editor... ${NC}"
 sudo apt install vim -y
 
-cat << EOF > /home/ubuntu/.vimrc
+cat << EOF > $HOME/.vimrc
 syntax on
 set paste
 set number
@@ -34,4 +34,4 @@ set wmnu
 set cursorline
 EOF
 
-sudo cp .vimrc /root
+sudo cp $HOME/.vimrc /root
