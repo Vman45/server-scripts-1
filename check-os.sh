@@ -1,7 +1,5 @@
 #!/bin/bash
-#----------------------
-# check os
-#----------------------
+
 if [ -f /etc/os-release ]; then
         . /etc/os-release
         OS=$NAME
