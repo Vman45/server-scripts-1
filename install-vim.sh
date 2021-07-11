@@ -34,9 +34,10 @@ set wmnu
 set cursorline
 EOF
 
+echo
 echo -e "Vim config file is located in ${GREEN}$HOME/.vimrc${NC}"
 
 sudo cp $HOME/.vimrc /root
 
-echo -e "Vim config file is located in ${GREEN}/root/.vimrc${NC}"
+echo -e "Vim config file is located in ${GREEN}/root/.vimrc${NC}\n"
 
