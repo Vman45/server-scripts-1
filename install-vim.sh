@@ -17,7 +17,7 @@ echo
 echo -e "${BG_GREEN} Installing text editor... ${NC}"
 sudo apt install vim -y
 
-cat << EOF > $HOME/.vimrc
+cat << EOF > $HOME/.vimrc && echo -e "\nVim config file is located in ${GREEN}$HOME/.vimrc${NC}"
 syntax on
 set paste
 set number
@@ -32,7 +32,7 @@ set hlsearch
 set showmatch
 set wmnu
 set cursorline
-EOF && echo -e "\nVim config file is located in ${GREEN}$HOME/.vimrc${NC}"
+EOF
 
 sudo cp $HOME/.vimrc /root && echo -e "Vim config file is located in ${GREEN}/root/.vimrc${NC}\n"
 
