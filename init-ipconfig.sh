@@ -17,6 +17,7 @@ NC="\e[0m"
 echo
 echo -e "${BG_GREEN} Installing firewall... ${NC}"
 sudo apt install iptables -y
+echo
 
 mkdir config || echo -e "${YELLOW}Warn : config directory is already exists.${NC}\n"
 sudo iptables-save > $HOME/config/iptables.dump && echo -e "iptables backup file is located in ${GREEN}$HOME/config/iptables.dump${NC}\n"
