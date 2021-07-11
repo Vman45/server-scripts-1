@@ -16,7 +16,7 @@ NC="\e[0m"
 #----------------------
 echo
 echo -e "${BG_GREEN} Setting swap memory... ${NC}"
-sudo fallocate -l 1GB /swapfile
-sudo chmod 600 /swapfile
-sudo mkswap /swapfile
-sudo swapon /swapfile
+sudo fallocate -l 1GB /swapfile || echo -e "${RED}Failed : fallocat${NC}"
+sudo chmod 600 /swapfile || echo -e "${RED}Failed : permission${NC}"
+sudo mkswap /swapfile || echo -e "${RED} Failed : make swap${NC}"
+sudo swapon /swapfile || echo -e "${RED} Failed : turn on swap${NC}"
