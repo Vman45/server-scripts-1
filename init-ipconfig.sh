@@ -20,3 +20,6 @@ sudo apt install iptables -y
 
 mkdir config
 sudo iptables-save > $HOME/config/iptables.dump
+
+echo
+echo -e "iptables backup file is located in ${GREEN}$HOME/config/iptables.dump${NC}"
