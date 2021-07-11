@@ -18,5 +18,5 @@ echo
 echo -e "${BG_GREEN} Setting swap memory... ${NC}"
 sudo fallocate -l 1GB /swapfile || echo -e "${RED}Failed : fallocate${NC}\n"
 sudo chmod 600 /swapfile || echo -e "${RED}Failed : permission${NC}\n"
-sudo mkswap /swapfile || echo -e "${RED} Failed : make swap${NC}\n"
-sudo swapon /swapfile || echo -e "${RED} Failed : turn on swap${NC}\n"
+sudo mkswap /swapfile || echo -e "${RED}Failed : make swap${NC}\n"
+sudo swapon /swapfile || echo -e "${RED}Failed : turn on swap${NC}\n"
