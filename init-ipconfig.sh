@@ -19,7 +19,4 @@ echo -e "${BG_GREEN} Installing firewall... ${NC}"
 sudo apt install iptables -y
 
 mkdir config
-sudo iptables-save > $HOME/config/iptables.dump
-
-echo
-echo -e "iptables backup file is located in ${GREEN}$HOME/config/iptables.dump${NC}\n"
+sudo iptables-save > $HOME/config/iptables.dump && echo -e "\niptables backup file is located in ${GREEN}$HOME/config/iptables.dump${NC}\n"
