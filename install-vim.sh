@@ -32,12 +32,7 @@ set hlsearch
 set showmatch
 set wmnu
 set cursorline
-EOF
+EOF && echo -e "\nVim config file is located in ${GREEN}$HOME/.vimrc${NC}"
 
-echo
-echo -e "Vim config file is located in ${GREEN}$HOME/.vimrc${NC}"
-
-sudo cp $HOME/.vimrc /root
-
-echo -e "Vim config file is located in ${GREEN}/root/.vimrc${NC}\n"
+sudo cp $HOME/.vimrc /root && echo -e "Vim config file is located in ${GREEN}/root/.vimrc${NC}\n"
 
